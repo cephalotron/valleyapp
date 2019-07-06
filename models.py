@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 # store only base stats, calculate derived when character is accessed
 class Char(models.Model):
 	MAGE = 'M'
